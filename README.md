@@ -2,14 +2,14 @@
 
 Python script inserting phylip files, that are too big for beauti to handle into a beast xml template file
 
-This script was originally designed, because my RADSeq dataset was to big to be loaded by the Beast helper 
-program beauti (Drummond & Rambaut, 2007).
+This script was originally designed, because my RADSeq dataset was to big to be loaded by the BEAST helper 
+program BEAUTi (Drummond & Rambaut, 2007).
 
 
 # Command line Usage
 
 ```
-pytjon insert_phy2xml.py -h
+>>> python insert_phy2xml.py -h
 
 usage: insert_phy2xml.py [-h] -p PHYLIP -t TEMPLATE -o OUTFILE
 
