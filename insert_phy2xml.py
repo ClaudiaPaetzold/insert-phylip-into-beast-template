@@ -14,7 +14,7 @@ def main():
 	parser.add_argument('-o', '--outfile', type=str, help='Name of output file. Will be written in the location of phylip file', required=True)
 	args = parser.parse_args()
 	
-	outpath = os.path.join(os.path.dirname(args.phylip), 'beast_' + args.out + '.xml')
+	outpath = os.path.join(os.path.dirname(args.phylip), 'beast_' + args.outfile + '.xml')
 	
 	#phy2xml(args.phylip, args.template, outpath)
 #####################
